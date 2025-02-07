@@ -1,0 +1,9 @@
+.Container div:nth-child(2), 
+.Container div:nth-child(3) {
+    width: 48%;
+}
+
+.Container div:nth-child(4) {
+    height: calc(60vh - 5rem);
+}
+

@@ -1,0 +1,29 @@
+.Container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container div:nth-child(1), .Container div:nth-child(2){
+    height: calc((100vh / 3) - 4 rem);
+}
+
+.Container div:nth-child(1){
+    width: 39%;
+}
+
+.Container div:nth-child(2){
+    width: 58%;
+}
+
+.Container div:nth-child(3), 
+.Container div:nth-child(4),
+.Container div:nth-child(5){
+    width: calc((100% / 3) - 2%);
+    height: calc((100vh / 3) - 4rem);
+}
+
+.Container div:nth-child(6){
+    width: 100%;
+    height: calc((100vh / 3) - 4rem);
+}

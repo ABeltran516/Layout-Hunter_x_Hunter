@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+:root {
+    --sky_blue: #77AAE6;
+    --grass_green: #D5E677;
+    --coral_red: #E58077;
+    --ground_coffee: #917D7B;
+    --souls_black: #505A66;
+    --lodo: #636650;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 130rem;
+    padding: 3rem;
+    margin: 5% auto 0;
+}
+
+.Container div {
+    width: 100%;
+    min-width: 15rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    height: calc(17vh - 1rem);
+    box-shadow: -7px 7px 14px #9d9d9d, 7px -7px 14px #ffffff;
+}
+
+.Sub_container {
+    display: flex;
+    overflow: hidden;
+}
+
+.Container div:nth-child(1) {
+    background-color: var(--grass_green);
+}
+
+.Container div:nth-child(2) {
+    justify-content: flex-end;
+    background-color: var(--coral_red);
+}
+
+.Container div:nth-child(3) {
+    background-color: var(--ground_coffee);
+}
+
+.Container div:nth-child(4) {
+    background-color: var(--souls_black);
+}
+
+.Container div:nth-child(5) {
+    background-color: var(--lodo);
+}
+
+.Container div:nth-child(6) {
+    background-color: var(--sky_blue);
+    margin: 0;
+}
+
+/* .Sub_container1{
+    background-color: var(--grass_green);    
+}
+
+.Sub_container2{
+    background-color: var(--coral_red);
+}
+.Sub_container3{
+    background-color: var(--ground_coffee);
+}
+.Sub_container4{
+    background-color: var(--souls_black);
+}
+.Sub_container5{
+    background-color: var(--lodo);
+} */
+
+/* @media (min-width: 600px) {
+    .Container div:nth-child(2), .Container div:nth-child(3), .Container div:nth-child(4){
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 800px) {
+    .Container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Container div:nth-child(1){
+        width: 60%;
+    }
+    .Container div:nth-child(2){
+        width: 40%;
+    }
+    .Container div:nth-child(3){
+        width: 33%;
+    }
+    .Container div:nth-child(4){
+        width: 33%;
+    }
+    .Container div:nth-child(5){
+        width: 34%;
+    }
+} */
