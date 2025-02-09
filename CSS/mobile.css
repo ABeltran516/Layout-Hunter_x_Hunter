@@ -44,6 +44,11 @@ body {
 .Sub_container {
     display: flex;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.--Hover:hover {
+    transform: scale(1.05);
 }
 
 .Container div:nth-child(1) {
